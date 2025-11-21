@@ -1,0 +1,16 @@
+# Core dependencies
+crewai==0.86.0
+crewai-tools
+python-dotenv
+pyyaml
+
+# LLM & AI
+ollama
+litellm
+
+# Markdown & Obsidian
+markdown
+python-frontmatter
+
+# Utilities
+requests

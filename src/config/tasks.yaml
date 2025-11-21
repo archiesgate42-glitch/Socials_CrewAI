@@ -1,0 +1,26 @@
+# src/config/tasks.yaml
+
+content_analysis:
+  description: "Analyze content from {source_file} and determine platform fit"
+  expected_output: "Platform routing decision with reasoning"
+  agent: orchestrator
+
+linkedin_post_creation:
+  description: "Create LinkedIn post from: {content}"
+  expected_output: "Professional LinkedIn post (300-500 words)"
+  agent: linkedin_writer
+
+x_post_creation:
+  description: "Create X post from: {content}"
+  expected_output: "Concise tweet or thread (max 280 chars per tweet)"
+  agent: x_writer
+
+facebook_post_creation:
+  description: "Create Facebook post from: {content}"
+  expected_output: "Conversational Facebook post with discussion prompt"
+  agent: facebook_writer
+
+instagram_caption_creation:
+  description: "Create Instagram caption from: {content}"
+  expected_output: "Visual-focused caption with hashtags"
+  agent: instagram_writer

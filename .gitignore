@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output files
+output/
+generated_posts.json
+posts_preview.html
+*.log
+
+# Obsidian vault (don't commit your personal notes!)
+# Adjust path if needed
+vault/
+*.obsidian/
+
+# Test files
+test_output/
+*.test.py
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# CrewAI cache
+.crewai/
+
+# Proposals (sensitive content)
+approved_proposals.json
+proposals.json
+
+# API keys / secrets (extra safety)
+*secret*
+*key*
+*token*
+credentials.json
